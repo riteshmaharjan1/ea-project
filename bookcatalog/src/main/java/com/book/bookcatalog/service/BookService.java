@@ -7,6 +7,9 @@ import com.book.bookcatalog.service.dto.BookDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Collection;
+import java.util.List;
+
 @Service
 public class BookService {
     @Autowired
@@ -16,5 +19,39 @@ public class BookService {
         Book book = BookAdapter.bookDTOToBook(bookDTO);
         bookRepository.save(book);
         return BookAdapter.bookToBookDTO(book);
+    }
+
+    public BookDTO updateBook(BookDTO bookDTO) {
+        Book book = BookAdapter.bookDTOToBook(bookDTO);
+        bookRepository.save(book);
+        return BookAdapter.bookToBookDTO(book);
+    }
+
+    public void deleteBook(String isbn) {
+        Book book = bookRepository.findBookByIsbn(isbn);
+        bookRepository.delete(book);
+    }
+
+    public Collection<BookDTO> searchBookByTitle(String title) {
+        List<Book> bookList = bookRepository.findBookByTitle(title);
+        return BookAdapter.getAllBookDTOList(bookList);
+    }
+
+    public Collection<BookDTO> searchBookByAuthorName(String name) {
+        List<Book> bookList = bookRepository.findBookByAuthorName(name);
+        return BookAdapter.getAllBookDTOList(bookList);
+    }
+    public Collection<BookDTO> searchBookByIsbn(String isbn) {
+        List<Book> bookList = bookRepository.findBookListByIsbn(isbn);
+        return BookAdapter.getAllBookDTOList(bookList);
+    }
+    public Collection<BookDTO> searchBookByScanCode(String isbn) {
+        List<Book> bookList = bookRepository.findBookByScanCode(isbn);
+        return BookAdapter.getAllBookDTOList(bookList);
+    }
+
+    public Collection<BookDTO> searchBookByAvailability(boolean isAvailable) {
+        List<Book> bookList = bookRepository.findBookByAvailable(isAvailable);
+        return BookAdapter.getAllBookDTOList(bookList);
     }
 }

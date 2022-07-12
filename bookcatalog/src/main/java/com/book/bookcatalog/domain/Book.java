@@ -14,7 +14,7 @@ import java.util.List;
 @NoArgsConstructor
 @Document
 public class Book {
-
+    @Id
     private String isbn;
     private String title;
     private List<Author> authorName = new ArrayList<>();

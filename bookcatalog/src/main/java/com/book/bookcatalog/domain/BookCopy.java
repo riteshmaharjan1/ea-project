@@ -8,6 +8,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class BookCopy {
-    private String ScanCode;
+    private String scanCode;
     private boolean isAvailable;
 }
