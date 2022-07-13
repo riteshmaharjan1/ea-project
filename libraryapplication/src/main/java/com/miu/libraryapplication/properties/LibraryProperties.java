@@ -1,43 +1,14 @@
 package com.miu.libraryapplication.properties;
 
+import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 @ConfigurationProperties(prefix = "libraryapplication")
+@Data
 public class LibraryProperties {
-    private long MaxNumberOfBooks;
-    private long MaxWeeksForCheckout;
+    private Long MaxNumberOfBooks;
+    private Long MaxWeeksForCheckout;
     private String BookCatalogAPI;
-    private double LateFeePerDay;
+    private Double LateFeePerDay;
 
-    public long getMaxNumberOfBooks() {
-        return MaxNumberOfBooks;
-    }
-
-    public void setMaxNumberOfBooks(long maxNumberOfBooks) {
-        MaxNumberOfBooks = maxNumberOfBooks;
-    }
-
-    public long getMaxWeeksForCheckout() {
-        return MaxWeeksForCheckout;
-    }
-
-    public void setMaxWeeksForCheckout(long maxWeeksForCheckout) {
-        MaxWeeksForCheckout = maxWeeksForCheckout;
-    }
-
-    public String getBookCatalogAPI() {
-        return BookCatalogAPI;
-    }
-
-    public void setBookCatalogAPI(String bookCatalogAPI) {
-        BookCatalogAPI = bookCatalogAPI;
-    }
-
-    public double getLateFeePerDay() {
-        return LateFeePerDay;
-    }
-
-    public void setLateFeePerDay(double lateFeePerDay) {
-        LateFeePerDay = lateFeePerDay;
-    }
 }

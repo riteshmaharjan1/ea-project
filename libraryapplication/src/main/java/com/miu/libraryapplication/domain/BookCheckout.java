@@ -20,10 +20,10 @@ public class BookCheckout {
     @JoinColumn(name = "customerNumber")
     private Customer customer;
     private String scanCode;
-    private String checkoutDate;
-    private String checkinDate;
+    private Date checkoutDate;
+    private Date checkinDate;
 
-    public BookCheckout(String scanCode, String checkoutDate, String checkinDate) {
+    public BookCheckout(String scanCode, Date checkoutDate, Date checkinDate) {
         this.scanCode = scanCode;
         this.checkoutDate = checkoutDate;
         this.checkinDate = checkinDate;

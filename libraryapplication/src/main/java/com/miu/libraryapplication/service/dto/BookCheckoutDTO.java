@@ -11,10 +11,10 @@ public class BookCheckoutDTO {
     private long bookCheckoutId;
     private long customerNumber;
     private String scanCode;
-    private String checkoutDate;
-    private String checkinDate;
+    private Date checkoutDate;
+    private Date checkinDate;
 
-    public BookCheckoutDTO(long customerNumber, String scanCode, String checkoutDate, String checkinDate) {
+    public BookCheckoutDTO(long customerNumber, String scanCode, Date checkoutDate, Date checkinDate) {
         this.customerNumber = customerNumber;
         this.scanCode = scanCode;
         this.checkoutDate = checkoutDate;
