@@ -22,4 +22,5 @@ public interface IBookRepository extends MongoRepository<Book, String> {
 
     @Query("{ 'bookCopies': { $elemMatch: { 'isAvailable' : :#{#isAvailable} } }}")
     List<Book> findBookByAvailable(boolean isAvailable);
+
 }

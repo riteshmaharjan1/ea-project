@@ -20,4 +20,9 @@ public class Book {
     private List<Author> authorName = new ArrayList<>();
     private List<BookCopy> bookCopies = new ArrayList<>();
 
+
+    public void updateCheckedOutBook(String scanCode){
+        BookCopy bookCopy = bookCopies.stream().filter(book -> book.getScanCode().equals(scanCode)).findFirst().get();
+        bookCopy.setIsAvailable(!bookCopy.getIsAvailable());
+    }
 }

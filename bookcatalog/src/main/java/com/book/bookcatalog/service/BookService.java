@@ -1,6 +1,7 @@
 package com.book.bookcatalog.service;
 
 import com.book.bookcatalog.domain.Book;
+import com.book.bookcatalog.domain.BookCopy;
 import com.book.bookcatalog.repository.IBookRepository;
 import com.book.bookcatalog.service.adapter.BookAdapter;
 import com.book.bookcatalog.service.dto.BookDTO;
@@ -65,5 +66,12 @@ public class BookService {
     public Collection<BookDTO> searchBookByAvailability(boolean isAvailable) {
         List<Book> bookList = bookRepository.findBookByAvailable(isAvailable);
         return BookAdapter.getAllBookDTOList(bookList);
+    }
+
+    public BookDTO updateCheckedOutBook(String scanCode) {
+        Book book = bookRepository.findBookByScanCode(scanCode);
+        book.updateCheckedOutBook(scanCode);
+        bookRepository.save(book);
+        return BookAdapter.bookToBookDTO(book);
     }
 }
