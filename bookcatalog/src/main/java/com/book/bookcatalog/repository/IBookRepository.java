@@ -6,9 +6,11 @@ import org.springframework.data.mongodb.repository.Query;
 
 import java.util.List;
 
-public interface IBookRepository extends MongoRepository<Book, Long>{
+public interface IBookRepository extends MongoRepository<Book, String> {
     Book findBookByIsbn(String isbn);
+
     List<Book> findBookByTitle(String title);
+
     @Query("{ 'authorName': { $elemMatch: { 'name' : :#{#name} } }}")
     List<Book> findBookByAuthorName(String name);
 
@@ -16,7 +18,8 @@ public interface IBookRepository extends MongoRepository<Book, Long>{
     List<Book> findBookListByIsbn(String isbn);
 
     @Query("{ 'bookCopies': { $elemMatch: { 'scanCode' : :#{#scanCode} } }}")
-    List<Book> findBookByScanCode(String scanCode);
+    Book findBookByScanCode(String scanCode);
+
     @Query("{ 'bookCopies': { $elemMatch: { 'isAvailable' : :#{#isAvailable} } }}")
     List<Book> findBookByAvailable(boolean isAvailable);
 }

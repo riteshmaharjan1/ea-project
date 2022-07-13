@@ -27,6 +27,16 @@ public class BookService {
         return BookAdapter.bookToBookDTO(book);
     }
 
+    public BookDTO getBook(String isbn) {
+        Book book = bookRepository.findBookByIsbn(isbn);
+        return BookAdapter.bookToBookDTO(book);
+    }
+
+    public Collection<BookDTO> getAllBook() {
+        List<Book> bookList = bookRepository.findAll();
+        return BookAdapter.getAllBookDTOList(bookList);
+    }
+
     public void deleteBook(String isbn) {
         Book book = bookRepository.findBookByIsbn(isbn);
         bookRepository.delete(book);
@@ -41,13 +51,15 @@ public class BookService {
         List<Book> bookList = bookRepository.findBookByAuthorName(name);
         return BookAdapter.getAllBookDTOList(bookList);
     }
+
     public Collection<BookDTO> searchBookByIsbn(String isbn) {
         List<Book> bookList = bookRepository.findBookListByIsbn(isbn);
         return BookAdapter.getAllBookDTOList(bookList);
     }
-    public Collection<BookDTO> searchBookByScanCode(String isbn) {
-        List<Book> bookList = bookRepository.findBookByScanCode(isbn);
-        return BookAdapter.getAllBookDTOList(bookList);
+
+    public BookDTO searchBookByScanCode(String isbn) {
+        Book bookList = bookRepository.findBookByScanCode(isbn);
+        return BookAdapter.bookToBookDTO(bookList);
     }
 
     public Collection<BookDTO> searchBookByAvailability(boolean isAvailable) {

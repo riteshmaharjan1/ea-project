@@ -2,6 +2,7 @@ package com.book.bookcatalog.controller;
 
 import com.book.bookcatalog.service.BookService;
 import com.book.bookcatalog.service.dto.BookDTO;
+import org.bson.codecs.AtomicBooleanCodec;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpStatus;
@@ -35,6 +36,18 @@ public class BookController {
         return new ResponseEntity<>("Deleted Sucessfully", HttpStatus.OK);
     }
 
+    @GetMapping("/{isbn}")
+    public ResponseEntity<?> getBook(@PathVariable String isbn) {
+        BookDTO bookDTO = bookService.getBook(isbn);
+        return new ResponseEntity<>(bookDTO, HttpStatus.OK);
+    }
+
+    @GetMapping("/all")
+    public ResponseEntity<?> getAllBook() {
+        Collection<BookDTO> bookDTOS = bookService.getAllBook();
+        return new ResponseEntity<>(bookDTOS, HttpStatus.OK);
+    }
+
     @GetMapping("")
     public ResponseEntity<?> getBookByTitle(@RequestParam String searchBy, @RequestParam String keyword) {
         Collection<BookDTO> bookDTOList = new ArrayList<>();
@@ -44,10 +57,17 @@ public class BookController {
             bookDTOList = bookService.searchBookByAuthorName(keyword);
         } else if (searchBy.equals("isbn")) {
             bookDTOList = bookService.searchBookByIsbn(keyword);
-        } else if (searchBy.equals("scanCode")) {
-            bookDTOList = bookService.searchBookByScanCode(keyword);
         }
+//        else if (searchBy.equals("scanCode")) {
+//            bookDTOList = bookService.searchBookByScanCode(keyword);
+//        }
+
         return new ResponseEntity<>(bookDTOList, HttpStatus.OK);
     }
 
+    @GetMapping("/search")
+    public ResponseEntity<?> getBookByScanCode(@RequestParam String searchBy, @RequestParam String keyword) {
+        BookDTO bookDTO = bookService.searchBookByScanCode(keyword);
+        return new ResponseEntity<>(bookDTO, HttpStatus.OK);
+    }
 }
