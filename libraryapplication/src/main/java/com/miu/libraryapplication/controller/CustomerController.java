@@ -28,10 +28,9 @@ public class CustomerController {
         return new ResponseEntity<>(customerDTOs, HttpStatus.OK);
     }
 
-    @PutMapping()
+    @PutMapping("")
     public ResponseEntity<?> updateCustomer(@RequestBody CustomerDTO customerDTO) {
-        CustomerDTO customerDTOs = customerService.updateCustomer(customerDTO);
-        return new ResponseEntity<>(customerDTOs, HttpStatus.OK);
+        return new ResponseEntity<>(customerService.updateCustomer(customerDTO), HttpStatus.OK);
     }
 
     @DeleteMapping()

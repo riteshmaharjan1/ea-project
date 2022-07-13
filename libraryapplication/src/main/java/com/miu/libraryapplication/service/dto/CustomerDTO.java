@@ -6,8 +6,13 @@ import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
 public class CustomerDTO {
+    private long customerNumber;
     private String name;
     private String email;
+
+    public CustomerDTO(String name, String email) {
+        this.name = name;
+        this.email = email;
+    }
 }
