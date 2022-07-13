@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.time.LocalDate;
 import java.util.Date;
 
 @Entity
@@ -16,16 +17,15 @@ public class BookCheckout {
     @Id
     @GeneratedValue
     private long bookCheckoutId;
-    @ManyToOne
-    @JoinColumn(name = "customerNumber")
-    private Customer customer;
     private String scanCode;
-    private Date checkoutDate;
-    private Date checkinDate;
+    private LocalDate checkoutDate;
+    private LocalDate checkinDate;
+    private LocalDate dueDate;
 
-    public BookCheckout(String scanCode, Date checkoutDate, Date checkinDate) {
+    public BookCheckout(String scanCode, LocalDate checkoutDate, LocalDate checkinDate, LocalDate dueDate) {
         this.scanCode = scanCode;
         this.checkoutDate = checkoutDate;
         this.checkinDate = checkinDate;
     }
+
 }
