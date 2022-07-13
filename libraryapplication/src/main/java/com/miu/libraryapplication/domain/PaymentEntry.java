@@ -13,11 +13,15 @@ import java.time.LocalDate;
 
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
 public class PaymentEntry {
     @Id
     @GeneratedValue
     private long paymentEntryId;
     private LocalDate paymentDate;
     private double amount;
+
+    public PaymentEntry(LocalDate paymentDate, double amount) {
+        this.paymentDate = paymentDate;
+        this.amount = amount;
+    }
 }

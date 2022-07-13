@@ -1119,3 +1119,47 @@ org.postgresql.util.PSQLException: ERROR: relation "bookreserve" does not exist
 2022-07-13 16:09:21.460 DEBUG 19280 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
 2022-07-13 16:09:21.461  INFO 19280 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
 2022-07-13 16:09:25.062  INFO 19280 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 3.982 seconds (JVM running for 4.636)
+2022-07-13 16:30:43.437  INFO 25524 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 25524 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
+2022-07-13 16:30:43.442 DEBUG 25524 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-13 16:30:43.443  INFO 25524 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-13 16:30:46.989  INFO 25524 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 4.162 seconds (JVM running for 4.97)
+2022-07-13 16:43:35.986  INFO 34356 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 34356 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
+2022-07-13 16:43:35.991 DEBUG 34356 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-13 16:43:35.993  INFO 34356 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-13 16:43:39.333  INFO 34356 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 3.812 seconds (JVM running for 4.572)
+2022-07-13 16:46:23.536  INFO 34128 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 34128 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
+2022-07-13 16:46:23.538 DEBUG 34128 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-13 16:46:23.540  INFO 34128 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-13 16:46:26.853  INFO 34128 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 3.709 seconds (JVM running for 4.338)
+2022-07-13 17:01:56.148  INFO 34996 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 34996 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
+2022-07-13 17:01:56.157 DEBUG 34996 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-13 17:01:56.157  INFO 34996 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-13 17:02:00.091  INFO 34996 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 4.382 seconds (JVM running for 4.985)
+2022-07-13 17:06:59.549  INFO 34204 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 34204 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
+2022-07-13 17:06:59.553 DEBUG 34204 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-13 17:06:59.554  INFO 34204 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-13 17:07:03.937  INFO 34204 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 5.022 seconds (JVM running for 5.987)
+2022-07-13 17:24:03.578  INFO 38308 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 38308 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
+2022-07-13 17:24:03.582 DEBUG 38308 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-13 17:24:03.583  INFO 38308 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-13 17:24:07.273  INFO 38308 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 4.202 seconds (JVM running for 5.091)
+2022-07-13 17:42:50.991  INFO 29760 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 29760 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
+2022-07-13 17:42:50.994 DEBUG 29760 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-13 17:42:50.994  INFO 29760 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-13 17:42:54.738  INFO 29760 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 4.111 seconds (JVM running for 4.633)
+2022-07-13 17:46:18.584  INFO 36536 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 36536 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
+2022-07-13 17:46:18.589 DEBUG 36536 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-13 17:46:18.589  INFO 36536 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-13 17:46:21.900  INFO 36536 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 3.79 seconds (JVM running for 4.487)
+2022-07-13 18:08:07.825  INFO 38880 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 38880 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
+2022-07-13 18:08:07.827 DEBUG 38880 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-13 18:08:07.828  INFO 38880 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-13 18:08:11.623  INFO 38880 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 4.188 seconds (JVM running for 4.868)
+2022-07-13 18:13:37.692  INFO 8316 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 8316 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
+2022-07-13 18:13:37.703 DEBUG 8316 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-13 18:13:37.704  INFO 8316 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-13 18:13:41.067  INFO 8316 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 3.861 seconds (JVM running for 4.736)
+2022-07-13 18:18:03.459  INFO 21164 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 21164 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
+2022-07-13 18:18:03.461 DEBUG 21164 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-13 18:18:03.462  INFO 21164 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-13 18:18:07.004  INFO 21164 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 3.971 seconds (JVM running for 4.578)

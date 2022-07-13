@@ -14,13 +14,13 @@ import com.miu.libraryapplication.service.adapter.BookReserveAdapter;
 import com.miu.libraryapplication.service.adapter.CustomerAdapter;
 import com.miu.libraryapplication.service.dto.*;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import java.time.LocalDate;
-import java.util.Collection;
-import java.util.List;
-import java.util.Optional;
+import java.time.LocalDateTime;
+import java.util.*;
 
 @Service
 public class CustomerService {
@@ -86,7 +86,7 @@ public class CustomerService {
         }
     }
 
-    public Object checkinBook(BookCheckoutDTO bookCheckoutDTO) {
+    public Object checkinBook(BookCheckoutDTO bookCheckoutDTO) throws JsonProcessingException {
         Optional<Customer> customer = customerRepository.findByCustomerNumber(bookCheckoutDTO.getCustomerNumber());
         if (customer.isPresent()) {
             List<Long> customerList = bookReserveRepository.findByScanCodeAndClosed(bookCheckoutDTO.getScanCode());
@@ -97,9 +97,12 @@ public class CustomerService {
                 }
             }
             customer.get().returnBook(bookCheckoutDTO.getScanCode());
-            customerRepository.save(customer.get());
+
+            notifyCheckout.pushCheckoutMessage(new NotifyCheckoutBookDTO(bookCheckoutDTO.getScanCode()));
+            return customerRepository.save(customer.get());
+        } else {
+            return new CustomMsg("Customer Not Found");
         }
-        return new CustomMsg("Customer Not Found");
     }
 
     public Object reserveBook(BookReserveDTO bookReserveDTO) {
@@ -112,4 +115,64 @@ public class CustomerService {
         }
     }
 
+    public Object payFee(long customerNumber, double amount) {
+        Optional<Customer> customer = customerRepository.findByCustomerNumber(customerNumber);
+        if (customer.isPresent()) {
+            customer.get().payFee(amount);
+            return customerRepository.save(customer.get());
+        } else {
+            return new CustomMsg("Customer not found");
+        }
+    }
+
+    public List<OutstandingAmountPerCustomerDTO> getOutstandingFeePerCustomer(String customerNumber) {
+        List<Object[]> tempObject = customerRepository.getOutstandingAmountPerCustomer(customerNumber, libraryProperties.getLateFeePerDay());
+        List<OutstandingAmountPerCustomerDTO> resultSet = new ArrayList<>();
+        for (Object[] result : tempObject) {
+            OutstandingAmountPerCustomerDTO dataSet = new OutstandingAmountPerCustomerDTO();
+            dataSet.setCustomerNumber((String) result[0]);
+            dataSet.setName((String) result[1]);
+            dataSet.setOutstandingFee((Double) result[2]);
+            resultSet.add(dataSet);
+        }
+        return resultSet;
+    }
+
+    public List<BorrowedAndLateReturnedBookDTO> getAllBorrowedAndLateReturnedBook() {
+        List<Object[]> tempObject = customerRepository.getAllBorrowedAndLateReturnedBook();
+        List<BorrowedAndLateReturnedBookDTO> resultSet = new ArrayList<>();
+        for (Object[] result : tempObject) {
+            BorrowedAndLateReturnedBookDTO dataSet = new BorrowedAndLateReturnedBookDTO();
+            dataSet.setScanCode((String) result[1]);
+            dataSet.setCustomerName((String) result[2]);
+            dataSet.setBorrowedDate((Date) result[3]);
+            dataSet.setReturnedDate((Date) result[4]);
+            dataSet.setReturnedDate((Date) result[5]);
+            dataSet.setStatus((String) result[6]);
+            resultSet.add(dataSet);
+        }
+        return resultSet;
+    }
+
+    @Scheduled(cron = "0/20 * * * * *")
+    public void printOutstandingAmountPerCustomer() {
+        List<Object[]> tempObject = customerRepository.getOutstandingAmountForAllCustomer(libraryProperties.getLateFeePerDay());
+        List<OutstandingAmountPerCustomerDTO> resultSet = new ArrayList<>();
+        for (Object[] result : tempObject) {
+            OutstandingAmountPerCustomerDTO dataSet = new OutstandingAmountPerCustomerDTO();
+            dataSet.setCustomerNumber((String) result[0]);
+            dataSet.setName((String) result[1]);
+            dataSet.setOutstandingFee((Double) result[2]);
+            resultSet.add(dataSet);
+        }
+        System.out.println("***** Printing Outstanding report at : " + LocalDateTime.now().toString() + "*****");
+        System.out.println("-------------------------------------------------------------------------");
+        System.out.println("Customer Number   |                  Name               | Outstanding Fee");
+        System.out.println("-------------------------------------------------------------------------");
+        for (OutstandingAmountPerCustomerDTO data : resultSet) {
+            System.out.println(data.getCustomerNumber() + "             |            " + data.getName() + "          |    " + String.valueOf(data.getOutstandingFee()));
+        }
+        System.out.println("-------------------------------------------------------------------------");
+
+    }
 }

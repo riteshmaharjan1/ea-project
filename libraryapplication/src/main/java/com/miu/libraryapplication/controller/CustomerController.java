@@ -2,8 +2,6 @@ package com.miu.libraryapplication.controller;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.miu.libraryapplication.domain.value.CustomMsg;
-import com.miu.libraryapplication.service.BookCheckoutService;
-import com.miu.libraryapplication.service.BookReserveService;
 import com.miu.libraryapplication.service.CustomerService;
 import com.miu.libraryapplication.service.dto.BookCheckoutDTO;
 import com.miu.libraryapplication.service.dto.BookReserveDTO;
@@ -15,7 +13,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDate;
 import java.util.Collection;
-import java.util.Date;
 
 @RestController
 @RequestMapping("/customers")
@@ -23,11 +20,6 @@ public class CustomerController {
 
     @Autowired
     CustomerService customerService;
-    @Autowired
-    BookCheckoutService bookCheckoutService;
-
-    @Autowired
-    BookReserveService bookReserveService;
 
     @GetMapping("/{customerNumber}")
     public ResponseEntity<?> getCustomer(@PathVariable long customerNumber) {
@@ -49,7 +41,7 @@ public class CustomerController {
     @DeleteMapping()
     public ResponseEntity<?> deleteCustomer(@PathVariable long customerNumber) {
         customerService.deleteCustomer(customerNumber);
-        return new ResponseEntity<>("Deleted Succesfully", HttpStatus.OK);
+        return new ResponseEntity<>(new CustomMsg("Deleted Succesfully"), HttpStatus.OK);
     }
 
     @GetMapping("/all")
@@ -60,20 +52,32 @@ public class CustomerController {
 
     @PostMapping("/checkout")
     private ResponseEntity<?> checkoutBook(@RequestBody BookCheckoutDTO bookCheckoutDTO) throws JsonProcessingException {
-        customerService.checkoutBook(bookCheckoutDTO);
-        return new ResponseEntity<>("Checkout Successfully", HttpStatus.OK);
+        return new ResponseEntity<>(customerService.checkoutBook(bookCheckoutDTO), HttpStatus.OK);
     }
 
     @PostMapping("/checkin")
-    private ResponseEntity<?> checkinBook(@RequestBody BookCheckoutDTO bookCheckoutDTO) {
+    private ResponseEntity<?> checkinBook(@RequestBody BookCheckoutDTO bookCheckoutDTO) throws JsonProcessingException {
         bookCheckoutDTO.setCheckinDate(LocalDate.now());
-        customerService.checkinBook(bookCheckoutDTO);
-        return new ResponseEntity<>(new CustomMsg("Checkin Successfully"), HttpStatus.OK);
+        return new ResponseEntity<>(customerService.checkinBook(bookCheckoutDTO), HttpStatus.OK);
     }
 
     @PostMapping("/reserveBook")
     public ResponseEntity<?> reserveBook(@RequestBody BookReserveDTO bookReserveDTO) {
-        customerService.reserveBook(bookReserveDTO);
-        return new ResponseEntity<>(new CustomMsg("Reserved Successfully"), HttpStatus.OK);
+        return new ResponseEntity<>( customerService.reserveBook(bookReserveDTO), HttpStatus.OK);
+    }
+
+    @PostMapping("/payfee")
+    public ResponseEntity<?> payFee(@RequestParam long customerNumber, @RequestParam double amount) {
+        return new ResponseEntity<>( customerService.payFee(customerNumber, amount), HttpStatus.OK);
+    }
+
+    @GetMapping("/reports/getOutstandingAmountPerCustomer/{customerNumber}")
+    public ResponseEntity<?> getOutstandingAmountPerCustomer(@PathVariable String customerNumber) {
+        return new ResponseEntity<>(customerService.getOutstandingFeePerCustomer(customerNumber), HttpStatus.OK);
+    }
+
+    @GetMapping("/reports/getAllBorrowedAndLateReturnedBook")
+    public ResponseEntity<?> getAllBorrowedAndLateReturnedBook() {
+        return new ResponseEntity<>(customerService.getAllBorrowedAndLateReturnedBook(), HttpStatus.OK);
     }
 }

@@ -19,4 +19,5 @@ public class NotifyCheckout {
         String notifyMsg = objectMapper.writeValueAsString(notifyCheckoutBookDTO);
         jmsTemplate.convertAndSend("CHECKOUT_BOOK", notifyMsg);
     }
+
 }

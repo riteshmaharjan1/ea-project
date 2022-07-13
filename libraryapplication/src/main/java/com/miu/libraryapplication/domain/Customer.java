@@ -36,6 +36,7 @@ public class Customer {
     @JoinColumn(name = "customer_id")
     private List<BookReserve> bookReserves = new ArrayList<>();
 
+
     public Customer(String name, String email) {
         this.name = name;
         this.email = email;
@@ -66,6 +67,11 @@ public class Customer {
         if (reservationEntriesWithSameBook.size() == 0) {
             bookReserves.add(bookReserve);
         }
+    }
+
+    public void payFee(double amount){
+        PaymentEntry paymentEntry = new PaymentEntry(LocalDate.now(), amount);
+        paymentEntries.add(paymentEntry);
     }
 
     public boolean ableToCheckout(long maxBookThatCanBeCheckout) {
