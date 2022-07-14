@@ -6,6 +6,7 @@ import com.miu.libraryapplication.service.CustomerService;
 import com.miu.libraryapplication.service.dto.BookCheckoutDTO;
 import com.miu.libraryapplication.service.dto.BookReserveDTO;
 import com.miu.libraryapplication.service.dto.CustomerDTO;
+import com.miu.libraryapplication.service.dto.PaymentDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -38,7 +39,7 @@ public class CustomerController {
         return new ResponseEntity<>(customerService.updateCustomer(customerDTO), HttpStatus.OK);
     }
 
-    @DeleteMapping()
+    @DeleteMapping("/{customerNumber}")
     public ResponseEntity<?> deleteCustomer(@PathVariable long customerNumber) {
         customerService.deleteCustomer(customerNumber);
         return new ResponseEntity<>(new CustomMsg("Deleted Succesfully"), HttpStatus.OK);
@@ -63,17 +64,17 @@ public class CustomerController {
 
     @PostMapping("/reserveBook")
     public ResponseEntity<?> reserveBook(@RequestBody BookReserveDTO bookReserveDTO) {
-        return new ResponseEntity<>( customerService.reserveBook(bookReserveDTO), HttpStatus.OK);
+        return new ResponseEntity<>(customerService.reserveBook(bookReserveDTO), HttpStatus.OK);
     }
 
     @PostMapping("/payfee")
-    public ResponseEntity<?> payFee(@RequestParam long customerNumber, @RequestParam double amount) {
-        return new ResponseEntity<>( customerService.payFee(customerNumber, amount), HttpStatus.OK);
+    public ResponseEntity<?> payFee(@RequestBody PaymentDTO paymentDTO) {
+        return new ResponseEntity<>(customerService.payFee(paymentDTO.getCustomerNumber(), paymentDTO.getAmount()), HttpStatus.OK);
     }
 
     @GetMapping("/reports/getOutstandingAmountPerCustomer/{customerNumber}")
     public ResponseEntity<?> getOutstandingAmountPerCustomer(@PathVariable String customerNumber) {
-        return new ResponseEntity<>(customerService.getOutstandingFeePerCustomer(customerNumber), HttpStatus.OK);
+    return new ResponseEntity<>(customerService.getOutstandingFeePerCustomer(customerNumber), HttpStatus.OK);
     }
 
     @GetMapping("/reports/getAllBorrowedAndLateReturnedBook")

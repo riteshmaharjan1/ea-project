@@ -18,6 +18,7 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+import java.math.BigInteger;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.*;
@@ -125,17 +126,17 @@ public class CustomerService {
         }
     }
 
-    public List<OutstandingAmountPerCustomerDTO> getOutstandingFeePerCustomer(String customerNumber) {
+    public OutstandingAmountPerCustomerDTO getOutstandingFeePerCustomer(String customerNumber) {
         List<Object[]> tempObject = customerRepository.getOutstandingAmountPerCustomer(customerNumber, libraryProperties.getLateFeePerDay());
-        List<OutstandingAmountPerCustomerDTO> resultSet = new ArrayList<>();
+        OutstandingAmountPerCustomerDTO dataSet = new OutstandingAmountPerCustomerDTO();
         for (Object[] result : tempObject) {
-            OutstandingAmountPerCustomerDTO dataSet = new OutstandingAmountPerCustomerDTO();
-            dataSet.setCustomerNumber((String) result[0]);
+//            OutstandingAmountPerCustomerDTO dataSet = new OutstandingAmountPerCustomerDTO();
+            dataSet.setCustomerNumber((Number) result[0]);
             dataSet.setName((String) result[1]);
             dataSet.setOutstandingFee((Double) result[2]);
-            resultSet.add(dataSet);
+//            resultSet.add(dataSet);
         }
-        return resultSet;
+        return dataSet;
     }
 
     public List<BorrowedAndLateReturnedBookDTO> getAllBorrowedAndLateReturnedBook() {
@@ -160,7 +161,7 @@ public class CustomerService {
         List<OutstandingAmountPerCustomerDTO> resultSet = new ArrayList<>();
         for (Object[] result : tempObject) {
             OutstandingAmountPerCustomerDTO dataSet = new OutstandingAmountPerCustomerDTO();
-            dataSet.setCustomerNumber((String) result[0]);
+            dataSet.setCustomerNumber((Number) result[0]);
             dataSet.setName((String) result[1]);
             dataSet.setOutstandingFee((Double) result[2]);
             resultSet.add(dataSet);

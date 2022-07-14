@@ -1,10 +1,8 @@
-package com.miu.libraryapplication.service.dto;
+package com.miu.library.libraryClient.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import java.math.BigInteger;
 
 @Data
 @NoArgsConstructor

@@ -1,555 +1,44 @@
-2022-07-13 00:01:34.239  INFO 71612 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 71612 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 00:01:34.246 DEBUG 71612 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 00:01:34.247  INFO 71612 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 00:01:37.697  INFO 71612 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 3.856 seconds (JVM running for 4.453)
-2022-07-13 00:18:55.775  INFO 71060 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 71060 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 00:18:55.782 DEBUG 71060 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 00:18:55.783  INFO 71060 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 00:18:58.988  INFO 71060 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 3.586 seconds (JVM running for 4.227)
-2022-07-13 01:00:28.076  INFO 71264 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 71264 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 01:00:28.078 DEBUG 71264 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 01:00:28.079  INFO 71264 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 01:00:31.506  INFO 71264 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 3.826 seconds (JVM running for 4.428)
-2022-07-13 01:00:53.848  INFO 72076 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 72076 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 01:00:53.850 DEBUG 72076 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 01:00:53.851  INFO 72076 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 01:00:56.493  INFO 72076 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 2.953 seconds (JVM running for 3.448)
-2022-07-13 01:02:42.405 ERROR 72076 --- [http-nio-8081-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "org.modelmapper.ModelMapper.map(Object, java.lang.Class)" because "com.miu.libraryapplication.service.adapter.BookReserveAdapter.mapper" is null] with root cause
+2022-07-14 00:32:49.685  INFO 20932 --- [main] c.m.l.repository.CustomerRepositoryTest  : Starting CustomerRepositoryTest using Java 17.0.3 on Ritesh with PID 20932 (started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
+2022-07-14 00:32:49.695 DEBUG 20932 --- [main] c.m.l.repository.CustomerRepositoryTest  : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-14 00:32:49.696  INFO 20932 --- [main] c.m.l.repository.CustomerRepositoryTest  : No active profile set, falling back to 1 default profile: "default"
+2022-07-14 00:32:53.343  INFO 20932 --- [main] c.m.l.repository.CustomerRepositoryTest  : Started CustomerRepositoryTest in 4.176 seconds (JVM running for 5.299)
+2022-07-14 00:34:31.022  INFO 57716 --- [main] c.m.l.repository.CustomerRepositoryTest  : Starting CustomerRepositoryTest using Java 17.0.3 on Ritesh with PID 57716 (started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
+2022-07-14 00:34:31.026 DEBUG 57716 --- [main] c.m.l.repository.CustomerRepositoryTest  : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-14 00:34:31.027  INFO 57716 --- [main] c.m.l.repository.CustomerRepositoryTest  : No active profile set, falling back to 1 default profile: "default"
+2022-07-14 00:34:34.401  INFO 57716 --- [main] c.m.l.repository.CustomerRepositoryTest  : Started CustomerRepositoryTest in 3.887 seconds (JVM running for 4.913)
+2022-07-14 00:37:19.981  INFO 57684 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 57684 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
+2022-07-14 00:37:19.984 DEBUG 57684 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-14 00:37:19.984  INFO 57684 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-14 00:37:23.702  INFO 57684 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 4.079 seconds (JVM running for 4.771)
+2022-07-14 00:38:41.137  INFO 39636 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 39636 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
+2022-07-14 00:38:41.139 DEBUG 39636 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-14 00:38:41.140  INFO 39636 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-14 00:38:44.435  INFO 39636 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 3.642 seconds (JVM running for 4.269)
+2022-07-14 00:40:16.356  INFO 56448 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 56448 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
+2022-07-14 00:40:16.358 DEBUG 56448 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-14 00:40:16.359  INFO 56448 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-14 00:40:19.603  INFO 56448 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 3.576 seconds (JVM running for 4.119)
+2022-07-14 00:48:47.482  INFO 38260 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 38260 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
+2022-07-14 00:48:47.484 DEBUG 38260 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-14 00:48:47.485  INFO 38260 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-14 00:48:53.632  INFO 38260 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 6.514 seconds (JVM running for 7.162)
+2022-07-14 02:00:20.323  INFO 46788 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 46788 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
+2022-07-14 02:00:20.325 DEBUG 46788 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-14 02:00:20.326  INFO 46788 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-14 02:00:24.235  INFO 46788 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 4.275 seconds (JVM running for 4.866)
+2022-07-14 02:07:39.083 ERROR 46788 --- [http-nio-8081-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 : "{"timestamp":"2022-07-14T07:07:39.059+00:00","status":500,"error":"Internal Server Error","path":"/books/search"}"] with root cause
 
-java.lang.NullPointerException: Cannot invoke "org.modelmapper.ModelMapper.map(Object, java.lang.Class)" because "com.miu.libraryapplication.service.adapter.BookReserveAdapter.mapper" is null
-	at com.miu.libraryapplication.service.adapter.BookReserveAdapter.bookReserveDTOToBookReserve(BookReserveAdapter.java:28) ~[classes/:na]
-	at com.miu.libraryapplication.service.BookReserveService.reserveBook(BookReserveService.java:16) ~[classes/:na]
-	at com.miu.libraryapplication.controller.BookReserveController.reserveBook(BookReserveController.java:22) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.64.jar:4.0.FR]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.64.jar:4.0.FR]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-
-2022-07-13 01:05:45.809  INFO 72060 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 72060 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 01:05:45.811 DEBUG 72060 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 01:05:45.811  INFO 72060 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 01:05:48.448  INFO 72060 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 2.95 seconds (JVM running for 3.484)
-2022-07-13 01:05:53.164  INFO 68604 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 68604 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 01:05:53.168 DEBUG 68604 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 01:05:53.168  INFO 68604 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 01:05:58.029  INFO 68604 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 5.55 seconds (JVM running for 6.261)
-2022-07-13 01:06:39.204 ERROR 68604 --- [http-nio-8081-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "org.modelmapper.ModelMapper.map(Object, java.lang.Class)" because "com.miu.libraryapplication.service.adapter.BookReserveAdapter.mapper" is null] with root cause
-
-java.lang.NullPointerException: Cannot invoke "org.modelmapper.ModelMapper.map(Object, java.lang.Class)" because "com.miu.libraryapplication.service.adapter.BookReserveAdapter.mapper" is null
-	at com.miu.libraryapplication.service.adapter.BookReserveAdapter.bookReserveDTOToBookReserve(BookReserveAdapter.java:28) ~[classes/:na]
-	at com.miu.libraryapplication.service.BookReserveService.reserveBook(BookReserveService.java:16) ~[classes/:na]
-	at com.miu.libraryapplication.controller.BookReserveController.reserveBook(BookReserveController.java:22) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.64.jar:4.0.FR]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.64.jar:4.0.FR]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-
-2022-07-13 01:06:50.550  INFO 67660 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 67660 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 01:06:50.553 DEBUG 67660 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 01:06:50.554  INFO 67660 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 01:06:51.690  INFO 58264 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 58264 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 01:06:51.692 DEBUG 58264 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 01:06:51.693  INFO 58264 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 01:06:54.409  INFO 67660 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 4.243 seconds (JVM running for 4.978)
-2022-07-13 01:06:54.951 ERROR 58264 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 8081 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
-
-2022-07-13 01:07:04.832  INFO 68688 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 68688 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 01:07:04.835 DEBUG 68688 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 01:07:04.836  INFO 68688 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 01:07:07.539  INFO 68688 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 3.054 seconds (JVM running for 3.566)
-2022-07-13 01:07:26.503 ERROR 68688 --- [http-nio-8081-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "org.modelmapper.ModelMapper.map(Object, java.lang.Class)" because "com.miu.libraryapplication.service.adapter.BookReserveAdapter.mapper" is null] with root cause
-
-java.lang.NullPointerException: Cannot invoke "org.modelmapper.ModelMapper.map(Object, java.lang.Class)" because "com.miu.libraryapplication.service.adapter.BookReserveAdapter.mapper" is null
-	at com.miu.libraryapplication.service.adapter.BookReserveAdapter.bookReserveDTOToBookReserve(BookReserveAdapter.java:28) ~[classes/:na]
-	at com.miu.libraryapplication.service.BookReserveService.reserveBook(BookReserveService.java:16) ~[classes/:na]
-	at com.miu.libraryapplication.controller.BookReserveController.reserveBook(BookReserveController.java:23) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.64.jar:4.0.FR]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.64.jar:4.0.FR]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-
-2022-07-13 01:08:03.682 ERROR 68688 --- [http-nio-8081-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "org.modelmapper.ModelMapper.map(Object, java.lang.Class)" because "com.miu.libraryapplication.service.adapter.BookReserveAdapter.mapper" is null] with root cause
-
-java.lang.NullPointerException: Cannot invoke "org.modelmapper.ModelMapper.map(Object, java.lang.Class)" because "com.miu.libraryapplication.service.adapter.BookReserveAdapter.mapper" is null
-	at com.miu.libraryapplication.service.adapter.BookReserveAdapter.bookReserveDTOToBookReserve(BookReserveAdapter.java:28) ~[classes/:na]
-	at com.miu.libraryapplication.service.BookReserveService.reserveBook(BookReserveService.java:16) ~[classes/:na]
-	at com.miu.libraryapplication.controller.BookReserveController.reserveBook(BookReserveController.java:23) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.64.jar:4.0.FR]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.64.jar:4.0.FR]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-
-2022-07-13 01:08:30.433  INFO 64788 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 64788 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 01:08:30.439 DEBUG 64788 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 01:08:30.440  INFO 64788 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 01:08:33.463  INFO 64788 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 3.438 seconds (JVM running for 4.119)
-2022-07-13 01:09:16.863 ERROR 64788 --- [http-nio-8081-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "org.modelmapper.ModelMapper.map(Object, java.lang.Class)" because "com.miu.libraryapplication.service.adapter.BookReserveAdapter.mapper" is null] with root cause
-
-java.lang.NullPointerException: Cannot invoke "org.modelmapper.ModelMapper.map(Object, java.lang.Class)" because "com.miu.libraryapplication.service.adapter.BookReserveAdapter.mapper" is null
-	at com.miu.libraryapplication.service.adapter.BookReserveAdapter.bookReserveDTOToBookReserve(BookReserveAdapter.java:28) ~[classes/:na]
-	at com.miu.libraryapplication.service.BookReserveService.reserveBook(BookReserveService.java:16) ~[classes/:na]
-	at com.miu.libraryapplication.controller.BookReserveController.reserveBook(BookReserveController.java:23) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.64.jar:4.0.FR]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.64.jar:4.0.FR]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-
-2022-07-13 01:09:23.143  INFO 67248 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 67248 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 01:09:23.144 DEBUG 67248 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 01:09:23.145  INFO 67248 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 01:09:25.758  INFO 67248 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 2.908 seconds (JVM running for 3.498)
-2022-07-13 01:10:01.859 ERROR 67248 --- [http-nio-8081-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "org.modelmapper.ModelMapper.map(Object, java.lang.Class)" because "com.miu.libraryapplication.service.adapter.BookReserveAdapter.mapper" is null] with root cause
-
-java.lang.NullPointerException: Cannot invoke "org.modelmapper.ModelMapper.map(Object, java.lang.Class)" because "com.miu.libraryapplication.service.adapter.BookReserveAdapter.mapper" is null
-	at com.miu.libraryapplication.service.adapter.BookReserveAdapter.bookReserveDTOToBookReserve(BookReserveAdapter.java:28) ~[classes/:na]
-	at com.miu.libraryapplication.service.BookReserveService.reserveBook(BookReserveService.java:16) ~[classes/:na]
-	at com.miu.libraryapplication.controller.BookReserveController.reserveBook(BookReserveController.java:23) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.64.jar:4.0.FR]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.64.jar:4.0.FR]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-
-2022-07-13 01:10:07.912 ERROR 67248 --- [http-nio-8081-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "org.modelmapper.ModelMapper.map(Object, java.lang.Class)" because "com.miu.libraryapplication.service.adapter.BookReserveAdapter.mapper" is null] with root cause
-
-java.lang.NullPointerException: Cannot invoke "org.modelmapper.ModelMapper.map(Object, java.lang.Class)" because "com.miu.libraryapplication.service.adapter.BookReserveAdapter.mapper" is null
-	at com.miu.libraryapplication.service.adapter.BookReserveAdapter.bookReserveDTOToBookReserve(BookReserveAdapter.java:28) ~[classes/:na]
-	at com.miu.libraryapplication.service.BookReserveService.reserveBook(BookReserveService.java:16) ~[classes/:na]
-	at com.miu.libraryapplication.controller.BookReserveController.reserveBook(BookReserveController.java:23) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.64.jar:4.0.FR]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.64.jar:4.0.FR]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-
-2022-07-13 01:12:18.903  INFO 69472 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 69472 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 01:12:18.906 DEBUG 69472 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 01:12:18.908  INFO 69472 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 01:12:23.104  INFO 69472 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 4.58 seconds (JVM running for 5.22)
-2022-07-13 01:13:16.809 ERROR 69472 --- [http-nio-8081-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "org.modelmapper.ModelMapper.map(Object, java.lang.Class)" because "com.miu.libraryapplication.service.adapter.BookReserveAdapter.mapper" is null] with root cause
-
-java.lang.NullPointerException: Cannot invoke "org.modelmapper.ModelMapper.map(Object, java.lang.Class)" because "com.miu.libraryapplication.service.adapter.BookReserveAdapter.mapper" is null
-	at com.miu.libraryapplication.service.adapter.BookReserveAdapter.bookReserveDTOToBookReserve(BookReserveAdapter.java:28) ~[classes/:na]
-	at com.miu.libraryapplication.service.BookReserveService.reserveBook(BookReserveService.java:16) ~[classes/:na]
-	at com.miu.libraryapplication.controller.BookReserveController.reserveBook(BookReserveController.java:23) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.64.jar:4.0.FR]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.21.jar:5.3.21]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.64.jar:4.0.FR]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-
-2022-07-13 01:13:50.850  INFO 58820 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 58820 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 01:13:50.853 DEBUG 58820 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 01:13:50.854  INFO 58820 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 01:13:53.653  INFO 58820 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 3.139 seconds (JVM running for 3.659)
-2022-07-13 10:52:28.645  INFO 57800 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 57800 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 10:52:28.649 DEBUG 57800 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 10:52:28.650  INFO 57800 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 10:52:34.332  INFO 57800 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 6.281 seconds (JVM running for 9.759)
-2022-07-13 10:53:01.352 ERROR 57800 --- [http-nio-8081-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8080/books/search": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect] with root cause
-
-java.net.ConnectException: Connection refused: connect
-	at java.base/sun.nio.ch.Net.connect0(Native Method) ~[na:na]
-	at java.base/sun.nio.ch.Net.connect(Net.java:579) ~[na:na]
-	at java.base/sun.nio.ch.Net.connect(Net.java:568) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588) ~[na:na]
-	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
-	at java.base/java.net.Socket.connect(Socket.java:583) ~[na:na]
-	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:183) ~[na:na]
-	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498) ~[na:na]
-	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603) ~[na:na]
-	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:246) ~[na:na]
-	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:351) ~[na:na]
-	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:373) ~[na:na]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1309) ~[na:na]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242) ~[na:na]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128) ~[na:na]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1057) ~[na:na]
-	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66) ~[spring-web-5.3.21.jar:5.3.21]
-	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776) ~[spring-web-5.3.21.jar:5.3.21]
+org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 : "{"timestamp":"2022-07-14T07:07:39.059+00:00","status":500,"error":"Internal Server Error","path":"/books/search"}"
+	at org.springframework.web.client.HttpServerErrorException.create(HttpServerErrorException.java:100) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:170) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:122) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:819) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:777) ~[spring-web-5.3.21.jar:5.3.21]
 	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711) ~[spring-web-5.3.21.jar:5.3.21]
 	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:334) ~[spring-web-5.3.21.jar:5.3.21]
-	at com.miu.libraryapplication.service.BookCheckoutService.checkoutBook(BookCheckoutService.java:30) ~[classes/:na]
-	at com.miu.libraryapplication.controller.BookCheckoutController.checkoutBook(BookCheckoutController.java:25) ~[classes/:na]
+	at com.miu.libraryapplication.service.CustomerService.checkoutBook(CustomerService.java:74) ~[classes/:na]
+	at com.miu.libraryapplication.controller.CustomerController.checkoutBook(CustomerController.java:56) ~[classes/:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
@@ -580,6 +69,10 @@ java.net.ConnectException: Connection refused: connect
 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.7.1.jar:2.7.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
 	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.21.jar:5.3.21]
 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
@@ -601,243 +94,23 @@ java.net.ConnectException: Connection refused: connect
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
 	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
 
-2022-07-13 12:01:12.353  INFO 18380 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 18380 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 12:01:12.357 DEBUG 18380 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 12:01:12.358  INFO 18380 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 12:01:16.364  INFO 18380 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 4.454 seconds (JVM running for 5.122)
-2022-07-13 12:05:54.066  INFO 23060 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 23060 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 12:05:54.072 DEBUG 23060 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 12:05:54.073  INFO 23060 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 12:05:58.429  INFO 23060 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 4.956 seconds (JVM running for 5.806)
-2022-07-13 12:14:22.118  INFO 20048 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 20048 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 12:14:22.122 DEBUG 20048 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 12:14:22.123  INFO 20048 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 12:14:26.999  INFO 20048 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 5.405 seconds (JVM running for 7.299)
-2022-07-13 12:34:19.892  INFO 26344 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 26344 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 12:34:19.895 DEBUG 26344 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 12:34:19.896  INFO 26344 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 12:34:23.052 ERROR 26344 --- [main] o.s.boot.SpringApplication               : Application run failed
+2022-07-14 02:08:43.528  INFO 58876 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 58876 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
+2022-07-14 02:08:43.534 DEBUG 58876 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-14 02:08:43.535  INFO 58876 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-14 02:08:47.736  INFO 58876 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 4.823 seconds (JVM running for 5.498)
+2022-07-14 02:09:34.657 ERROR 58876 --- [http-nio-8081-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 : "{"timestamp":"2022-07-14T07:09:34.646+00:00","status":500,"error":"Internal Server Error","path":"/books/search"}"] with root cause
 
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookCheckoutController': Unsatisfied dependency expressed through field 'bookCheckoutService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookCheckoutService': Unsatisfied dependency expressed through field 'bookCheckoutRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'IBookCheckoutRepository' defined in com.miu.libraryapplication.repository.IBookCheckoutRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract com.miu.libraryapplication.domain.BookCheckout com.miu.libraryapplication.repository.IBookCheckoutRepository.getBookCheckoutInfo(long,java.lang.String); Reason: Validation failed for query for method public abstract com.miu.libraryapplication.domain.BookCheckout com.miu.libraryapplication.repository.IBookCheckoutRepository.getBookCheckoutInfo(long,java.lang.String)!; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract com.miu.libraryapplication.domain.BookCheckout com.miu.libraryapplication.repository.IBookCheckoutRepository.getBookCheckoutInfo(long,java.lang.String)!
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.21.jar:5.3.21]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.21.jar:5.3.21]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.1.jar:2.7.1]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.1.jar:2.7.1]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.1.jar:2.7.1]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.1.jar:2.7.1]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.1.jar:2.7.1]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.1.jar:2.7.1]
-	at com.miu.libraryapplication.LibraryApplication.main(LibraryApplication.java:21) ~[classes/:na]
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookCheckoutService': Unsatisfied dependency expressed through field 'bookCheckoutRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'IBookCheckoutRepository' defined in com.miu.libraryapplication.repository.IBookCheckoutRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract com.miu.libraryapplication.domain.BookCheckout com.miu.libraryapplication.repository.IBookCheckoutRepository.getBookCheckoutInfo(long,java.lang.String); Reason: Validation failed for query for method public abstract com.miu.libraryapplication.domain.BookCheckout com.miu.libraryapplication.repository.IBookCheckoutRepository.getBookCheckoutInfo(long,java.lang.String)!; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract com.miu.libraryapplication.domain.BookCheckout com.miu.libraryapplication.repository.IBookCheckoutRepository.getBookCheckoutInfo(long,java.lang.String)!
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.21.jar:5.3.21]
-	... 20 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'IBookCheckoutRepository' defined in com.miu.libraryapplication.repository.IBookCheckoutRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract com.miu.libraryapplication.domain.BookCheckout com.miu.libraryapplication.repository.IBookCheckoutRepository.getBookCheckoutInfo(long,java.lang.String); Reason: Validation failed for query for method public abstract com.miu.libraryapplication.domain.BookCheckout com.miu.libraryapplication.repository.IBookCheckoutRepository.getBookCheckoutInfo(long,java.lang.String)!; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract com.miu.libraryapplication.domain.BookCheckout com.miu.libraryapplication.repository.IBookCheckoutRepository.getBookCheckoutInfo(long,java.lang.String)!
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.21.jar:5.3.21]
-	... 34 common frames omitted
-Caused by: org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract com.miu.libraryapplication.domain.BookCheckout com.miu.libraryapplication.repository.IBookCheckoutRepository.getBookCheckoutInfo(long,java.lang.String); Reason: Validation failed for query for method public abstract com.miu.libraryapplication.domain.BookCheckout com.miu.libraryapplication.repository.IBookCheckoutRepository.getBookCheckoutInfo(long,java.lang.String)!; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract com.miu.libraryapplication.domain.BookCheckout com.miu.libraryapplication.repository.IBookCheckoutRepository.getBookCheckoutInfo(long,java.lang.String)!
-	at org.springframework.data.repository.query.QueryCreationException.create(QueryCreationException.java:101) ~[spring-data-commons-2.7.1.jar:2.7.1]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:107) ~[spring-data-commons-2.7.1.jar:2.7.1]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(QueryExecutorMethodInterceptor.java:95) ~[spring-data-commons-2.7.1.jar:2.7.1]
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[na:na]
-	at java.base/java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1061) ~[na:na]
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
-	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[na:na]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:97) ~[spring-data-commons-2.7.1.jar:2.7.1]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:87) ~[spring-data-commons-2.7.1.jar:2.7.1]
-	at java.base/java.util.Optional.map(Optional.java:260) ~[na:na]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:87) ~[spring-data-commons-2.7.1.jar:2.7.1]
-	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:365) ~[spring-data-commons-2.7.1.jar:2.7.1]
-	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323) ~[spring-data-commons-2.7.1.jar:2.7.1]
-	at org.springframework.data.util.Lazy.getNullable(Lazy.java:231) ~[spring-data-commons-2.7.1.jar:2.7.1]
-	at org.springframework.data.util.Lazy.get(Lazy.java:115) ~[spring-data-commons-2.7.1.jar:2.7.1]
-	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329) ~[spring-data-commons-2.7.1.jar:2.7.1]
-	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144) ~[spring-data-jpa-2.7.1.jar:2.7.1]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.21.jar:5.3.21]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.21.jar:5.3.21]
-	... 44 common frames omitted
-Caused by: java.lang.IllegalArgumentException: Validation failed for query for method public abstract com.miu.libraryapplication.domain.BookCheckout com.miu.libraryapplication.repository.IBookCheckoutRepository.getBookCheckoutInfo(long,java.lang.String)!
-	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.validateQuery(SimpleJpaQuery.java:96) ~[spring-data-jpa-2.7.1.jar:2.7.1]
-	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.<init>(SimpleJpaQuery.java:66) ~[spring-data-jpa-2.7.1.jar:2.7.1]
-	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromMethodWithQueryString(JpaQueryFactory.java:51) ~[spring-data-jpa-2.7.1.jar:2.7.1]
-	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$DeclaredQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:169) ~[spring-data-jpa-2.7.1.jar:2.7.1]
-	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:253) ~[spring-data-jpa-2.7.1.jar:2.7.1]
-	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:93) ~[spring-data-jpa-2.7.1.jar:2.7.1]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:103) ~[spring-data-commons-2.7.1.jar:2.7.1]
-	... 66 common frames omitted
-Caused by: java.lang.IllegalArgumentException: org.hibernate.QueryException: could not resolve property: customer of: com.miu.libraryapplication.domain.BookCheckout [select b from com.miu.libraryapplication.domain.BookCheckout b where b.customer.customerNumber=:customerNumber and b.scanCode =:scanCode and b.checkoutDate is not null and b.checkinDate is null]
-	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:138) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:181) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:188) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:757) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:114) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362) ~[spring-orm-5.3.21.jar:5.3.21]
-	at jdk.proxy2/jdk.proxy2.$Proxy97.createQuery(Unknown Source) ~[na:na]
-	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.validateQuery(SimpleJpaQuery.java:90) ~[spring-data-jpa-2.7.1.jar:2.7.1]
-	... 72 common frames omitted
-Caused by: org.hibernate.QueryException: could not resolve property: customer of: com.miu.libraryapplication.domain.BookCheckout [select b from com.miu.libraryapplication.domain.BookCheckout b where b.customer.customerNumber=:customerNumber and b.scanCode =:scanCode and b.checkoutDate is not null and b.checkinDate is null]
-	at org.hibernate.QueryException.generateQueryException(QueryException.java:120) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.QueryException.wrapWithQueryString(QueryException.java:103) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:220) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:636) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:748) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	... 80 common frames omitted
-Caused by: org.hibernate.QueryException: could not resolve property: customer of: com.miu.libraryapplication.domain.BookCheckout
-	at org.hibernate.persister.entity.AbstractPropertyMapping.propertyException(AbstractPropertyMapping.java:78) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.persister.entity.AbstractPropertyMapping.toType(AbstractPropertyMapping.java:72) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.persister.entity.AbstractEntityPersister.toType(AbstractEntityPersister.java:2053) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.hql.internal.ast.tree.FromElementType.getPropertyType(FromElementType.java:412) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.hql.internal.ast.tree.FromElement.getPropertyType(FromElement.java:524) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.hql.internal.ast.tree.DotNode.getDataType(DotNode.java:723) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.hql.internal.ast.HqlSqlWalker.lookupProperty(HqlSqlWalker.java:680) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.addrExpr(HqlSqlBaseWalker.java:5097) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.expr(HqlSqlBaseWalker.java:1315) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.exprOrSubquery(HqlSqlBaseWalker.java:4797) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.comparisonExpr(HqlSqlBaseWalker.java:4261) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.logicalExpr(HqlSqlBaseWalker.java:2180) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.logicalExpr(HqlSqlBaseWalker.java:2105) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.logicalExpr(HqlSqlBaseWalker.java:2105) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.logicalExpr(HqlSqlBaseWalker.java:2105) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.whereClause(HqlSqlBaseWalker.java:841) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:635) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:339) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:287) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:276) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:192) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	... 86 common frames omitted
-
-2022-07-13 14:35:56.912  INFO 29464 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 29464 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 14:35:56.915 DEBUG 29464 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 14:35:56.917  INFO 29464 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 14:36:00.987  INFO 29464 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 4.534 seconds (JVM running for 5.386)
-2022-07-13 14:40:39.311  INFO 6556 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 6556 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 14:40:39.313 DEBUG 6556 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 14:40:39.314  INFO 6556 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 14:40:42.510  INFO 6556 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 3.608 seconds (JVM running for 4.237)
-2022-07-13 14:44:28.780  INFO 18180 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 18180 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 14:44:28.783 DEBUG 18180 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 14:44:28.785  INFO 18180 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 14:44:32.059  INFO 18180 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 3.754 seconds (JVM running for 4.41)
-2022-07-13 14:50:08.402  INFO 25488 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 25488 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 14:50:08.405 DEBUG 25488 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 14:50:08.406  INFO 25488 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 14:50:12.526  INFO 25488 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 4.659 seconds (JVM running for 5.732)
-2022-07-13 14:53:20.798  INFO 21392 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 21392 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 14:53:20.802 DEBUG 21392 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 14:53:20.803  INFO 21392 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 14:53:25.076  INFO 21392 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 4.769 seconds (JVM running for 5.735)
-2022-07-13 14:54:03.329  INFO 29764 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 29764 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 14:54:03.334 DEBUG 29764 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 14:54:03.335  INFO 29764 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 14:54:07.411  INFO 29764 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 4.942 seconds (JVM running for 5.893)
-2022-07-13 15:38:31.648  INFO 30048 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 30048 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 15:38:31.654 DEBUG 30048 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 15:38:31.655  INFO 30048 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 15:38:35.444  INFO 30048 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 4.319 seconds (JVM running for 5.085)
-2022-07-13 15:39:16.589 ERROR 30048 --- [http-nio-8081-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: relation "bookreserve" does not exist
-  Position: 25
-2022-07-13 15:39:16.617 ERROR 30048 --- [http-nio-8081-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet] with root cause
-
-org.postgresql.util.PSQLException: ERROR: relation "bookreserve" does not exist
-  Position: 25
-	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675) ~[postgresql-42.3.6.jar:42.3.6]
-	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365) ~[postgresql-42.3.6.jar:42.3.6]
-	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355) ~[postgresql-42.3.6.jar:42.3.6]
-	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490) ~[postgresql-42.3.6.jar:42.3.6]
-	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408) ~[postgresql-42.3.6.jar:42.3.6]
-	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:167) ~[postgresql-42.3.6.jar:42.3.6]
-	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:119) ~[postgresql-42.3.6.jar:42.3.6]
-	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) ~[HikariCP-4.0.3.jar:na]
-	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java) ~[HikariCP-4.0.3.jar:na]
-	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:57) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.loader.Loader.getResultSet(Loader.java:2322) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2075) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2037) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.loader.Loader.doQuery(Loader.java:956) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:357) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.loader.Loader.doList(Loader.java:2868) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.loader.Loader.doList(Loader.java:2850) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2682) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.loader.Loader.list(Loader.java:2677) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.loader.custom.CustomLoader.list(CustomLoader.java:338) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.internal.SessionImpl.listCustomQuery(SessionImpl.java:2186) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.internal.AbstractSharedSessionContract.list(AbstractSharedSessionContract.java:1204) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.query.internal.NativeQueryImpl.doList(NativeQueryImpl.java:177) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1617) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.query.Query.getResultList(Query.java:165) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:128) ~[spring-data-jpa-2.7.1.jar:2.7.1]
-	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:90) ~[spring-data-jpa-2.7.1.jar:2.7.1]
-	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:156) ~[spring-data-jpa-2.7.1.jar:2.7.1]
-	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:144) ~[spring-data-jpa-2.7.1.jar:2.7.1]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137) ~[spring-data-commons-2.7.1.jar:2.7.1]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121) ~[spring-data-commons-2.7.1.jar:2.7.1]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:160) ~[spring-data-commons-2.7.1.jar:2.7.1]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:139) ~[spring-data-commons-2.7.1.jar:2.7.1]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.21.jar:5.3.21]
-	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:81) ~[spring-data-commons-2.7.1.jar:2.7.1]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.21.jar:5.3.21]
-	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.21.jar:5.3.21]
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.21.jar:5.3.21]
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.21.jar:5.3.21]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.21.jar:5.3.21]
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.21.jar:5.3.21]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.21.jar:5.3.21]
-	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:145) ~[spring-data-jpa-2.7.1.jar:2.7.1]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.21.jar:5.3.21]
-	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.21.jar:5.3.21]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.21.jar:5.3.21]
-	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.21.jar:5.3.21]
-	at jdk.proxy2/jdk.proxy2.$Proxy107.findByScanCodeAndClosed(Unknown Source) ~[na:na]
-	at com.miu.libraryapplication.service.BookCheckoutService.checkinBook(BookCheckoutService.java:84) ~[classes/:na]
-	at com.miu.libraryapplication.controller.BookCheckoutController.checkinBook(BookCheckoutController.java:33) ~[classes/:na]
+org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 : "{"timestamp":"2022-07-14T07:09:34.646+00:00","status":500,"error":"Internal Server Error","path":"/books/search"}"
+	at org.springframework.web.client.HttpServerErrorException.create(HttpServerErrorException.java:100) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:170) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:122) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:819) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:777) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:334) ~[spring-web-5.3.21.jar:5.3.21]
+	at com.miu.libraryapplication.service.CustomerService.checkoutBook(CustomerService.java:74) ~[classes/:na]
+	at com.miu.libraryapplication.controller.CustomerController.checkoutBook(CustomerController.java:56) ~[classes/:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
@@ -868,6 +141,10 @@ org.postgresql.util.PSQLException: ERROR: relation "bookreserve" does not exist
 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.7.1.jar:2.7.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
 	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.21.jar:5.3.21]
 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
@@ -889,66 +166,19 @@ org.postgresql.util.PSQLException: ERROR: relation "bookreserve" does not exist
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
 	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
 
-2022-07-13 15:43:04.470  INFO 29996 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 29996 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 15:43:04.473 DEBUG 29996 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 15:43:04.474  INFO 29996 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 15:43:09.268  INFO 29996 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 5.494 seconds (JVM running for 6.601)
-2022-07-13 15:44:23.086 ERROR 29996 --- [http-nio-8081-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: relation "bookreserve" does not exist
-  Position: 25
-2022-07-13 15:47:38.189 ERROR 29996 --- [http-nio-8081-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet] with root cause
+2022-07-14 02:11:14.416 ERROR 58876 --- [http-nio-8081-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 : "{"timestamp":"2022-07-14T07:11:14.413+00:00","status":500,"error":"Internal Server Error","path":"/books/search"}"] with root cause
 
-org.postgresql.util.PSQLException: ERROR: relation "bookreserve" does not exist
-  Position: 25
-	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675) ~[postgresql-42.3.6.jar:42.3.6]
-	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365) ~[postgresql-42.3.6.jar:42.3.6]
-	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355) ~[postgresql-42.3.6.jar:42.3.6]
-	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490) ~[postgresql-42.3.6.jar:42.3.6]
-	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408) ~[postgresql-42.3.6.jar:42.3.6]
-	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:167) ~[postgresql-42.3.6.jar:42.3.6]
-	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:119) ~[postgresql-42.3.6.jar:42.3.6]
-	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) ~[HikariCP-4.0.3.jar:na]
-	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java) ~[HikariCP-4.0.3.jar:na]
-	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:57) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.loader.Loader.getResultSet(Loader.java:2322) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2075) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2037) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.loader.Loader.doQuery(Loader.java:956) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:357) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.loader.Loader.doList(Loader.java:2868) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.loader.Loader.doList(Loader.java:2850) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2682) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.loader.Loader.list(Loader.java:2677) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.loader.custom.CustomLoader.list(CustomLoader.java:338) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.internal.SessionImpl.listCustomQuery(SessionImpl.java:2186) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.internal.AbstractSharedSessionContract.list(AbstractSharedSessionContract.java:1204) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.query.internal.NativeQueryImpl.doList(NativeQueryImpl.java:177) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1617) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.query.Query.getResultList(Query.java:165) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:128) ~[spring-data-jpa-2.7.1.jar:2.7.1]
-	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:90) ~[spring-data-jpa-2.7.1.jar:2.7.1]
-	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:156) ~[spring-data-jpa-2.7.1.jar:2.7.1]
-	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:144) ~[spring-data-jpa-2.7.1.jar:2.7.1]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137) ~[spring-data-commons-2.7.1.jar:2.7.1]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121) ~[spring-data-commons-2.7.1.jar:2.7.1]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:160) ~[spring-data-commons-2.7.1.jar:2.7.1]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:139) ~[spring-data-commons-2.7.1.jar:2.7.1]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.21.jar:5.3.21]
-	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:81) ~[spring-data-commons-2.7.1.jar:2.7.1]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.21.jar:5.3.21]
-	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.21.jar:5.3.21]
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.21.jar:5.3.21]
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.21.jar:5.3.21]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.21.jar:5.3.21]
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.21.jar:5.3.21]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.21.jar:5.3.21]
-	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:145) ~[spring-data-jpa-2.7.1.jar:2.7.1]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.21.jar:5.3.21]
-	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.21.jar:5.3.21]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.21.jar:5.3.21]
-	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.21.jar:5.3.21]
-	at jdk.proxy2/jdk.proxy2.$Proxy107.findByScanCodeAndClosed(Unknown Source) ~[na:na]
-	at com.miu.libraryapplication.service.BookCheckoutService.checkinBook(BookCheckoutService.java:84) ~[classes/:na]
-	at com.miu.libraryapplication.controller.BookCheckoutController.checkinBook(BookCheckoutController.java:33) ~[classes/:na]
+org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 : "{"timestamp":"2022-07-14T07:11:14.413+00:00","status":500,"error":"Internal Server Error","path":"/books/search"}"
+	at org.springframework.web.client.HttpServerErrorException.create(HttpServerErrorException.java:100) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:170) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:122) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:819) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:777) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:334) ~[spring-web-5.3.21.jar:5.3.21]
+	at com.miu.libraryapplication.service.CustomerService.checkoutBook(CustomerService.java:74) ~[classes/:na]
+	at com.miu.libraryapplication.controller.CustomerController.checkoutBook(CustomerController.java:56) ~[classes/:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
@@ -979,6 +209,10 @@ org.postgresql.util.PSQLException: ERROR: relation "bookreserve" does not exist
 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.7.1.jar:2.7.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
 	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.21.jar:5.3.21]
 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
@@ -1000,62 +234,20 @@ org.postgresql.util.PSQLException: ERROR: relation "bookreserve" does not exist
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
 	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
 
-2022-07-13 15:48:05.897 ERROR 29996 --- [http-nio-8081-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: relation "bookreserve" does not exist
-  Position: 25
-2022-07-13 15:50:16.243 ERROR 29996 --- [http-nio-8081-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet] with root cause
+2022-07-14 02:20:26.452  INFO 63768 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 63768 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
+2022-07-14 02:20:26.454 DEBUG 63768 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-14 02:20:26.455  INFO 63768 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-14 02:20:30.453  INFO 63768 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 4.379 seconds (JVM running for 5.108)
+2022-07-14 02:21:37.322  INFO 57168 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 57168 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
+2022-07-14 02:21:37.328 DEBUG 57168 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-14 02:21:37.329  INFO 57168 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-14 02:21:41.359  INFO 57168 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 4.514 seconds (JVM running for 5.229)
+2022-07-14 02:23:06.347 ERROR 57168 --- [http-nio-8081-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is CustomErrorException(status=null, data=null)] with root cause
 
-org.postgresql.util.PSQLException: ERROR: relation "bookreserve" does not exist
-  Position: 25
-	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675) ~[postgresql-42.3.6.jar:42.3.6]
-	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365) ~[postgresql-42.3.6.jar:42.3.6]
-	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355) ~[postgresql-42.3.6.jar:42.3.6]
-	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490) ~[postgresql-42.3.6.jar:42.3.6]
-	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408) ~[postgresql-42.3.6.jar:42.3.6]
-	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:167) ~[postgresql-42.3.6.jar:42.3.6]
-	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:119) ~[postgresql-42.3.6.jar:42.3.6]
-	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) ~[HikariCP-4.0.3.jar:na]
-	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java) ~[HikariCP-4.0.3.jar:na]
-	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:57) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.loader.Loader.getResultSet(Loader.java:2322) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2075) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2037) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.loader.Loader.doQuery(Loader.java:956) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:357) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.loader.Loader.doList(Loader.java:2868) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.loader.Loader.doList(Loader.java:2850) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2682) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.loader.Loader.list(Loader.java:2677) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.loader.custom.CustomLoader.list(CustomLoader.java:338) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.internal.SessionImpl.listCustomQuery(SessionImpl.java:2186) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.internal.AbstractSharedSessionContract.list(AbstractSharedSessionContract.java:1204) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.query.internal.NativeQueryImpl.doList(NativeQueryImpl.java:177) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1617) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.hibernate.query.Query.getResultList(Query.java:165) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
-	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:128) ~[spring-data-jpa-2.7.1.jar:2.7.1]
-	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:90) ~[spring-data-jpa-2.7.1.jar:2.7.1]
-	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:156) ~[spring-data-jpa-2.7.1.jar:2.7.1]
-	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:144) ~[spring-data-jpa-2.7.1.jar:2.7.1]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137) ~[spring-data-commons-2.7.1.jar:2.7.1]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121) ~[spring-data-commons-2.7.1.jar:2.7.1]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:160) ~[spring-data-commons-2.7.1.jar:2.7.1]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:139) ~[spring-data-commons-2.7.1.jar:2.7.1]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.21.jar:5.3.21]
-	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:81) ~[spring-data-commons-2.7.1.jar:2.7.1]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.21.jar:5.3.21]
-	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.21.jar:5.3.21]
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.21.jar:5.3.21]
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.21.jar:5.3.21]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.21.jar:5.3.21]
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.21.jar:5.3.21]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.21.jar:5.3.21]
-	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:145) ~[spring-data-jpa-2.7.1.jar:2.7.1]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.21.jar:5.3.21]
-	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.21.jar:5.3.21]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.21.jar:5.3.21]
-	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.21.jar:5.3.21]
-	at jdk.proxy2/jdk.proxy2.$Proxy107.findByScanCodeAndClosed(Unknown Source) ~[na:na]
-	at com.miu.libraryapplication.service.BookCheckoutService.checkinBook(BookCheckoutService.java:84) ~[classes/:na]
-	at com.miu.libraryapplication.controller.BookCheckoutController.checkinBook(BookCheckoutController.java:33) ~[classes/:na]
+com.miu.libraryapplication.exception.CustomErrorException: Customer already exceed maximum books for checking out
+	at com.miu.libraryapplication.domain.Customer.checkoutBook(Customer.java:54) ~[classes/:na]
+	at com.miu.libraryapplication.service.CustomerService.checkoutBook(CustomerService.java:79) ~[classes/:na]
+	at com.miu.libraryapplication.controller.CustomerController.checkoutBook(CustomerController.java:56) ~[classes/:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
@@ -1086,6 +278,10 @@ org.postgresql.util.PSQLException: ERROR: relation "bookreserve" does not exist
 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.7.1.jar:2.7.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
 	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.21.jar:5.3.21]
 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
@@ -1107,59 +303,137 @@ org.postgresql.util.PSQLException: ERROR: relation "bookreserve" does not exist
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
 	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
 
-2022-07-13 15:50:25.818  INFO 32420 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 32420 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 15:50:25.821 DEBUG 32420 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 15:50:25.822  INFO 32420 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 15:50:29.308  INFO 32420 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 3.974 seconds (JVM running for 4.741)
-2022-07-13 15:52:46.962  INFO 32896 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 32896 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 15:52:46.964 DEBUG 32896 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 15:52:46.965  INFO 32896 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 15:52:50.305  INFO 32896 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 3.764 seconds (JVM running for 4.347)
-2022-07-13 16:09:21.458  INFO 19280 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 19280 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 16:09:21.460 DEBUG 19280 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 16:09:21.461  INFO 19280 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 16:09:25.062  INFO 19280 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 3.982 seconds (JVM running for 4.636)
-2022-07-13 16:30:43.437  INFO 25524 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 25524 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 16:30:43.442 DEBUG 25524 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 16:30:43.443  INFO 25524 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 16:30:46.989  INFO 25524 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 4.162 seconds (JVM running for 4.97)
-2022-07-13 16:43:35.986  INFO 34356 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 34356 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 16:43:35.991 DEBUG 34356 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 16:43:35.993  INFO 34356 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 16:43:39.333  INFO 34356 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 3.812 seconds (JVM running for 4.572)
-2022-07-13 16:46:23.536  INFO 34128 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 34128 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 16:46:23.538 DEBUG 34128 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 16:46:23.540  INFO 34128 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 16:46:26.853  INFO 34128 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 3.709 seconds (JVM running for 4.338)
-2022-07-13 17:01:56.148  INFO 34996 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 34996 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 17:01:56.157 DEBUG 34996 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 17:01:56.157  INFO 34996 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 17:02:00.091  INFO 34996 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 4.382 seconds (JVM running for 4.985)
-2022-07-13 17:06:59.549  INFO 34204 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 34204 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 17:06:59.553 DEBUG 34204 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 17:06:59.554  INFO 34204 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 17:07:03.937  INFO 34204 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 5.022 seconds (JVM running for 5.987)
-2022-07-13 17:24:03.578  INFO 38308 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 38308 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 17:24:03.582 DEBUG 38308 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 17:24:03.583  INFO 38308 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 17:24:07.273  INFO 38308 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 4.202 seconds (JVM running for 5.091)
-2022-07-13 17:42:50.991  INFO 29760 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 29760 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 17:42:50.994 DEBUG 29760 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 17:42:50.994  INFO 29760 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 17:42:54.738  INFO 29760 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 4.111 seconds (JVM running for 4.633)
-2022-07-13 17:46:18.584  INFO 36536 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 36536 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 17:46:18.589 DEBUG 36536 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 17:46:18.589  INFO 36536 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 17:46:21.900  INFO 36536 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 3.79 seconds (JVM running for 4.487)
-2022-07-13 18:08:07.825  INFO 38880 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 38880 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 18:08:07.827 DEBUG 38880 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 18:08:07.828  INFO 38880 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 18:08:11.623  INFO 38880 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 4.188 seconds (JVM running for 4.868)
-2022-07-13 18:13:37.692  INFO 8316 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 8316 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 18:13:37.703 DEBUG 8316 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 18:13:37.704  INFO 8316 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 18:13:41.067  INFO 8316 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 3.861 seconds (JVM running for 4.736)
-2022-07-13 18:18:03.459  INFO 21164 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 21164 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
-2022-07-13 18:18:03.461 DEBUG 21164 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
-2022-07-13 18:18:03.462  INFO 21164 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
-2022-07-13 18:18:07.004  INFO 21164 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 3.971 seconds (JVM running for 4.578)
+2022-07-14 02:23:06.387 ERROR 57168 --- [http-nio-8081-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is CustomErrorException(status=null, data=null)] with root cause
+
+com.miu.libraryapplication.exception.CustomErrorException: Customer already exceed maximum books for checking out
+	at com.miu.libraryapplication.domain.Customer.checkoutBook(Customer.java:54) ~[classes/:na]
+	at com.miu.libraryapplication.service.CustomerService.checkoutBook(CustomerService.java:79) ~[classes/:na]
+	at com.miu.libraryapplication.controller.CustomerController.checkoutBook(CustomerController.java:56) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.64.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.64.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.7.1.jar:2.7.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-07-14 02:27:24.279  INFO 62696 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 62696 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
+2022-07-14 02:27:24.282 DEBUG 62696 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-14 02:27:24.282  INFO 62696 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-14 02:27:27.855  INFO 62696 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 3.917 seconds (JVM running for 4.453)
+2022-07-14 02:32:54.878  INFO 53896 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 53896 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
+2022-07-14 02:32:54.881 DEBUG 53896 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-14 02:32:54.882  INFO 53896 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-14 02:32:58.284  INFO 53896 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 3.898 seconds (JVM running for 4.673)
+2022-07-14 02:33:12.886  INFO 60092 --- [main] c.m.l.LibraryApplication                 : Starting LibraryApplication using Java 17.0.3 on Ritesh with PID 60092 (C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication\target\classes started by blink in C:\Ritesh\MIU\EA\Labs\ea-project\libraryapplication)
+2022-07-14 02:33:12.888 DEBUG 60092 --- [main] c.m.l.LibraryApplication                 : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-14 02:33:12.889  INFO 60092 --- [main] c.m.l.LibraryApplication                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-14 02:33:16.683  INFO 60092 --- [main] c.m.l.LibraryApplication                 : Started LibraryApplication in 4.235 seconds (JVM running for 4.864)
+2022-07-14 02:33:51.318 ERROR 60092 --- [http-nio-8081-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is CustomErrorException(status=null, data=null)] with root cause
+
+com.miu.libraryapplication.exception.CustomErrorException: Customer already exceed maximum books for checking out
+	at com.miu.libraryapplication.domain.Customer.checkoutBook(Customer.java:54) ~[classes/:na]
+	at com.miu.libraryapplication.service.CustomerService.checkoutBook(CustomerService.java:79) ~[classes/:na]
+	at com.miu.libraryapplication.controller.CustomerController.checkoutBook(CustomerController.java:56) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.64.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.64.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.7.1.jar:2.7.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+

@@ -1,6 +1,7 @@
 package com.miu.libraryapplication.domain;
 
 import com.miu.libraryapplication.domain.value.CustomMsg;
+import com.miu.libraryapplication.exception.CustomErrorException;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -49,6 +50,8 @@ public class Customer {
             bookCheckout.setDueDate(dueDate);
             bookCheckout.setScanCode(scanCode);
             bookCheckouts.add(bookCheckout);
+        }else{
+            throw new CustomErrorException("Customer already exceed maximum books for checking out");
         }
     }
 
@@ -56,6 +59,8 @@ public class Customer {
         Optional<BookCheckout> bookCheckout = bookCheckouts.stream().filter(ce -> ce.getScanCode().equals(scanCode)).findFirst();
         if (bookCheckout.isPresent()) {
             bookCheckout.get().setCheckinDate(LocalDate.now());
+        }else {
+            throw new CustomErrorException("Information provided is not valid.");
         }
     }
 
@@ -75,8 +80,8 @@ public class Customer {
     }
 
     public boolean ableToCheckout(long maxBookThatCanBeCheckout) {
-        List<BookCheckout> bookCheckoutList = bookCheckouts.stream().filter(ce -> ce.getCheckinDate() != null).collect(Collectors.toList());
-        if (bookCheckoutList.size() >= maxBookThatCanBeCheckout) {
+        List<BookCheckout> bookCheckoutList = bookCheckouts.stream().filter(ce -> ce.getCheckinDate() == null).collect(Collectors.toList());
+        if (bookCheckoutList.size() > maxBookThatCanBeCheckout) {
             return false;
         } else {
             return true;

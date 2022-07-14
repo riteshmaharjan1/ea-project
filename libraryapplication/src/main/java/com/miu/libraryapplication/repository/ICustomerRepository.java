@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 public interface ICustomerRepository extends JpaRepository<Customer, Long> {
+    Customer findCustomerByName(String name);
     Customer findCustomerByCustomerNumber(long customerNumber);
 
     Optional<Customer> findByCustomerNumber(long customerNumber);
@@ -40,13 +41,13 @@ public interface ICustomerRepository extends JpaRepository<Customer, Long> {
             "    OR bc.checkin_date > bc.due_date", nativeQuery = true)
     List<Object[]> getAllBorrowedAndLateReturnedBook();
 
-    @Query(value = "  select\n" +
+    @Query(value = " select\n" +
             "    c.customer_number,\n" +
-            "    max(name),\n" +
-            "    (sum(current_date - (ce.due_date)) * (0.5)) as outstanding_fee\n" +
+            "    max(name) as name,\n" +
+            "    (sum(current_date - (ce.due_date)) * :rate) as outstanding_fee\n" +
             "    from customer c\n" +
             "    inner join book_checkout ce on c.customer_number = ce.customer_id\n" +
-            "    where ce.checkin_date != null\n" +
+            "    where ce.checkin_date is  null\n" +
             "    and ce.due_date < current_date\n" +
             "    group by c.customer_number", nativeQuery = true)
     List<Object[]> getOutstandingAmountForAllCustomer(@Param("rate") double rate);
