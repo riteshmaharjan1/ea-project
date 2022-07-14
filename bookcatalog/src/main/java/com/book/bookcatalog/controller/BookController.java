@@ -2,6 +2,7 @@ package com.book.bookcatalog.controller;
 
 import com.book.bookcatalog.service.BookService;
 import com.book.bookcatalog.service.dto.BookDTO;
+import com.book.bookcatalog.service.dto.BookDTOs;
 import org.bson.codecs.AtomicBooleanCodec;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
@@ -44,13 +45,13 @@ public class BookController {
 
     @GetMapping("/all")
     public ResponseEntity<?> getAllBook() {
-        Collection<BookDTO> bookDTOS = bookService.getAllBook();
+        BookDTOs bookDTOS = bookService.getAllBook();
         return new ResponseEntity<>(bookDTOS, HttpStatus.OK);
     }
 
     @GetMapping("")
     public ResponseEntity<?> getBookByTitle(@RequestParam String searchBy, @RequestParam String keyword) {
-        Collection<BookDTO> bookDTOList = new ArrayList<>();
+        BookDTOs bookDTOList = new BookDTOs();
         if (searchBy.equals("title")) {
             bookDTOList = bookService.searchBookByTitle(keyword);
         } else if (searchBy.equals("authorName")) {

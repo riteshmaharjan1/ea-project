@@ -5,6 +5,7 @@ import com.book.bookcatalog.domain.BookCopy;
 import com.book.bookcatalog.repository.IBookRepository;
 import com.book.bookcatalog.service.adapter.BookAdapter;
 import com.book.bookcatalog.service.dto.BookDTO;
+import com.book.bookcatalog.service.dto.BookDTOs;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -33,9 +34,8 @@ public class BookService {
         return BookAdapter.bookToBookDTO(book);
     }
 
-    public Collection<BookDTO> getAllBook() {
-        List<Book> bookList = bookRepository.findAll();
-        return BookAdapter.getAllBookDTOList(bookList);
+    public BookDTOs getAllBook() {
+        return bookDTOObject(bookRepository.findAll());
     }
 
     public void deleteBook(String isbn) {
@@ -43,19 +43,16 @@ public class BookService {
         bookRepository.delete(book);
     }
 
-    public Collection<BookDTO> searchBookByTitle(String title) {
-        List<Book> bookList = bookRepository.findBookByTitle(title);
-        return BookAdapter.getAllBookDTOList(bookList);
+    public BookDTOs searchBookByTitle(String title) {
+        return bookDTOObject(bookRepository.findBookByTitle(title));
     }
 
-    public Collection<BookDTO> searchBookByAuthorName(String name) {
-        List<Book> bookList = bookRepository.findBookByAuthorName(name);
-        return BookAdapter.getAllBookDTOList(bookList);
+    public BookDTOs searchBookByAuthorName(String name) {
+        return bookDTOObject(bookRepository.findBookByAuthorName(name));
     }
 
-    public Collection<BookDTO> searchBookByIsbn(String isbn) {
-        List<Book> bookList = bookRepository.findBookListByIsbn(isbn);
-        return BookAdapter.getAllBookDTOList(bookList);
+    public BookDTOs searchBookByIsbn(String isbn) {
+        return bookDTOObject(bookRepository.findBookListByIsbn(isbn));
     }
 
     public BookDTO searchBookByScanCode(String isbn) {
@@ -73,5 +70,12 @@ public class BookService {
         book.updateCheckedOutBook(scanCode);
         bookRepository.save(book);
         return BookAdapter.bookToBookDTO(book);
+    }
+
+    BookDTOs bookDTOObject(Collection<Book> bookList) {
+        Collection<BookDTO> allBookDTO = BookAdapter.getAllBookDTOList(bookList);
+        BookDTOs bookDTOs = new BookDTOs();
+        bookDTOs.setBookDTOS(allBookDTO);
+        return bookDTOs;
     }
 }
